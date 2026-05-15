@@ -1,1 +1,29 @@
 # isprime
+
+Write a function that returns the first rune of a string.
+Expected function
+func FirstRune(s string) rune {
+
+}
+Usage
+
+Here is a possible program to test your function :
+package main
+
+import (
+	"piscine"
+
+	"github.com/01-edu/z01"
+)
+
+func main() {
+	z01.PrintRune(piscine.FirstRune("Hello!"))
+	z01.PrintRune(piscine.FirstRune("Salut!"))
+	z01.PrintRune(piscine.FirstRune("Ola!"))
+	z01.PrintRune('\n')
+}
+
+And its output :
+$ go run .
+HSO
+$
